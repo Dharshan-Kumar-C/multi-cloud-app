@@ -15,7 +15,7 @@ spec:
         app: flask-app
     spec:
       imagePullSecrets:
-      - name: ibm-cloud-secret  # Use the secret generated
+      - name: ibm-cloud-secret-1  # Use the secret generated
       containers:
       - name: flask-app
         image: icr.io/my-python-app-1/flask-app:latest  # Use your image path
